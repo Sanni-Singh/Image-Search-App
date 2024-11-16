@@ -23,7 +23,7 @@ async function displayPicture() {
     let data = await fetch(`${apiUrl}${KEY}&query=${inputBox.value}&page=${currPage}&per_page=12`)
     let res = await data.json();
     console.log(res);
-    loading.style.display="flex"
+    loading.style.display="none"
     res.results.forEach(ele => {
         console.log(ele);
 
