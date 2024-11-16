@@ -16,7 +16,7 @@ body{
         color: #fff;
         background-color: #3f3e3e;
         align-items: center;
-        padding: 10px 0;
+        padding: 20px 0;
         gap: 1rem;
         h1{
             font-size: 3rem;
@@ -55,6 +55,10 @@ body{
         align-items: center;
         gap: 1rem;
        
+        #loading{
+            width: 80px;
+            display: none;
+        }
         .dabba{
             display: flex;
             justify-content: center;
